@@ -1,0 +1,19 @@
+name = "discord0-vndb-widget-updater"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+[triggers]
+crons = ["0 0 * * *"]
+
+# Non-sensitive config stored as plain vars
+[vars]
+VNDB_USERNAME = "u230862"
+DISCORD_ENDPOINT = "https://discord.com/api/v9/applications/1524057509818667138/users/347756970369089566/identities/0/profile"
+
+# Secrets — set with: wrangler secret put <NAME>
+#   BOT_TOKEN      : Discord bot token
+#   TRIGGER_SECRET : random string used to authenticate the manual-trigger HTTP endpoint
+
+[observability.logs]
+enabled = true
+invocation_logs = true

@@ -1,0 +1,14 @@
+{
+  "name": "vndb-discord-widget",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "bash scripts/deploy.sh",
+    "deploy:only": "wrangler deploy",
+    "tail": "wrangler tail"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
