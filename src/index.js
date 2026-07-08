@@ -186,7 +186,7 @@ function buildPayload(stats) {
     { type: 1, name: 'playtime', value: `${stats.currentPlaytimeHours} Hour` },
     { type: 2, name: 'score', value: stats.currentScore },
     { type: 2, name: 'total_completed_vn', value: stats.totalCompletedVn },
-    { type: 2, name: 'total_playtime', value: stats.totalPlaytime },
+    { type: 1, name: 'total_playtime', value: `${stats.totalPlaytime} Hour` },
     { type: 2, name: 'total_wishlist', value: stats.totalWishlist },
     { type: 2, name: 'total_perfect_score', value: stats.totalPerfectScore },
     { type: 2, name: 'this_year_total', value: stats.thisYearTotal },
