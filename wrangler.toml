@@ -1,4 +1,4 @@
-name = "discord0-vndb-widget-updater"
+name = "discord-vndb-widget-updater"
 main = "src/index.js"
 compatibility_date = "2024-01-01"
 
