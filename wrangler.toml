@@ -8,7 +8,7 @@ crons = ["0 0 * * *"]
 # Non-sensitive config stored as plain vars
 [vars]
 VNDB_USERNAME = "u230862"
-DISCORD_ENDPOINT = "https://discord.com/api/v9/applications/1524057509818667138/users/347756970369089566/identities/0/profile"
+DISCORD_ENDPOINT = "https://discord.com/api/v9/applications/1524399224513626303/users/347756970369089566/identities/0/profile"
 
 # Secrets — set with: wrangler secret put <NAME>
 #   BOT_TOKEN      : Discord bot token
